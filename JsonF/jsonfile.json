@@ -1,0 +1,354 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-23T10:20:14.420Z",
+        "line": 4,
+        "name": "To login using valid username and valid password",
+        "description": "",
+        "id": "book-the-hotel-using-adactic-hotel-application;to-login-using-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4194920101,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the chrome browser and hit the url",
+            "match": {
+              "location": "AdactinLoginPage1.to_launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129536600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To send the valaid user name",
+            "match": {
+              "location": "AdactinLoginPage1.to_send_the_valaid_user_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75652700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To send the valaid password",
+            "match": {
+              "location": "AdactinLoginPage1.to_send_the_valaid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354681400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the adactic login button",
+            "match": {
+              "location": "AdactinLoginPage1.to_click_the_adactic_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@page1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-23T10:20:19.224Z",
+        "line": 14,
+        "name": "To search the location and select rooms for hotel booking",
+        "description": "",
+        "id": "book-the-hotel-using-adactic-hotel-application;to-search-the-location-and-select-rooms-for-hotel-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 358253499,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Select location",
+            "match": {
+              "location": "AdactinLoginPage1.select_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74745800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select rooms",
+            "match": {
+              "location": "AdactinLoginPage1.select_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217438000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To click the adactic search button",
+            "match": {
+              "location": "AdactinLoginPage1.to_click_the_adactic_search_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@page1"
+          },
+          {
+            "name": "@page2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-23T10:20:19.877Z",
+        "line": 23,
+        "name": "To Select the hotel and continue",
+        "description": "",
+        "id": "book-the-hotel-using-adactic-hotel-application;to-select-the-hotel-and-continue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 233597999,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Select the hotel using radio button",
+            "match": {
+              "location": "AdactinLoginPage1.select_the_hotel_using_radio_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201347499,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "To click the continue button",
+            "match": {
+              "location": "AdactinLoginPage1.to_click_the_continue_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@page1"
+          },
+          {
+            "name": "@page3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-23T10:20:20.314Z",
+        "line": 31,
+        "name": "Fill the form detail to book the hotel",
+        "description": "",
+        "id": "book-the-hotel-using-adactic-hotel-application;fill-the-form-detail-to-book-the-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 287231599,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enter first name",
+            "match": {
+              "location": "AdactinLoginPage1.enter_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56427401,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Enter last name",
+            "match": {
+              "location": "AdactinLoginPage1.enter_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132317900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Enter billing address",
+            "match": {
+              "location": "AdactinLoginPage1.enter_billing_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89134500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Enter credit card number",
+            "match": {
+              "location": "AdactinLoginPage1.enter_credit_card_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46289200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Select credit card type",
+            "match": {
+              "location": "AdactinLoginPage1.select_credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52757699,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Select expiry month",
+            "match": {
+              "location": "AdactinLoginPage1.select_expiry_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90989100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Select expiry year",
+            "match": {
+              "location": "AdactinLoginPage1.select_expiry_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61298500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Enter Cvv number",
+            "match": {
+              "location": "AdactinLoginPage1.enter_Cvv_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36992700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "To click the book now button",
+            "match": {
+              "location": "AdactinLoginPage1.to_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@page1"
+          },
+          {
+            "name": "@page4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-23T10:20:21.171Z",
+        "line": 52,
+        "name": "View the booking deatil",
+        "description": "",
+        "id": "book-the-hotel-using-adactic-hotel-application;view-the-booking-deatil",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6304976701,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click My itinerary",
+            "match": {
+              "location": "AdactinLoginPage1.click_My_itinerary()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "To print  search information in console",
+            "match": {
+              "location": "AdactinLoginPage1.to_print_search_information_in_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@page1"
+          },
+          {
+            "name": "@page5"
+          }
+        ]
+      }
+    ],
+    "name": "Book the hotel using Adactic hotel application",
+    "description": "",
+    "id": "book-the-hotel-using-adactic-hotel-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Adactin.feature",
+    "tags": [
+      {
+        "name": "@page1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

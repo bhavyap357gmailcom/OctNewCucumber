@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="13.051481">
+    <testcase classname="Book the hotel using Adactic hotel application" name="To login using valid username and valid password" time="4.79973">
+        <system-out><![CDATA[Given To launch the chrome browser and hit the url..........................passed
+When To send the valaid user name...........................................passed
+And To send the valaid password.............................................passed
+And To click the adactic login button.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book the hotel using Adactic hotel application" name="To search the location and select rooms for hotel booking" time="0.652193">
+        <system-out><![CDATA[When Select location........................................................passed
+And select rooms............................................................passed
+And To click the adactic search button......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book the hotel using Adactic hotel application" name="To Select the hotel and continue" time="0.436401">
+        <system-out><![CDATA[When Select the hotel using radio button....................................passed
+And To click the continue button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book the hotel using Adactic hotel application" name="Fill the form detail to book the hotel" time="0.856415">
+        <system-out><![CDATA[When Enter first name.......................................................passed
+And Enter last name.........................................................passed
+And Enter billing address...................................................passed
+And Enter credit card number................................................passed
+And Select credit card type.................................................passed
+And Select expiry month.....................................................passed
+And Select expiry year......................................................passed
+And Enter Cvv number........................................................passed
+And To click the book now button............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Book the hotel using Adactic hotel application" name="View the booking deatil" time="6.306742">
+        <system-out><![CDATA[When Click My itinerary.....................................................passed
+Then To print  search information in console................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
